@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../assets/unsplash_FHnnjk1Yj7Y.svg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    font-family: "Work Sans";
+}
+.house{
+    display: flex;
+    align-items: last baseline;
+    justify-content: end;
+}
+.container{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.9);
+    width:40%;
+    height: 100%;
+
+}
+.logo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 30px 10px;
+}
+form label{
+    color: #fff;
+    margin: 10px;
+}
+form input{
+    margin: 10px;
+    padding: 20px 250px 20px 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color:#fff ;
+}
+.logo h1{
+    color: #fff;
+    text-transform: capitalize;
+}
+.logo h1 span{
+    color:#F4DFB6;
+}
+.logo p{
+    color: #fff;
+    margin: 10px;
+}
+.checked{
+    display: flex;
+    gap: 170px;
+    align-items: center;
+    color: #F4DFB6;
+    margin: 10px;
+}
+.checked input[type="checkbox"]{
+   accent-color:#F4DFB6 ;
+}
+.checked a{
+    color: #F4DFB6;
+}
+form .button{
+    color: #000;
+    background: #F4DFB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 180px;
+    margin: 10px;
+    font-weight:700;
+    font-family: "Work Sans";
+    font-size: 24px;
+    cursor: pointer;
+}
+form p{
+    color: #fff;
+    margin: 40px 20px;
+    text-align: center;
+}
+form a{
+    color: #F4DFB6;
+}
+select{
+    padding: 20px 265px 20px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    background-color: #000;
+    color: #fff;
+}
+select option{
+    background-color: #000;
+    color: #fff;
+    padding-right: 20px;
+}

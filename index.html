@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG_sign_up_page</title>
+    <link rel="stylesheet" href="styles/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Open+Sans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,700&family=Open+Sans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="house">
+      <div class="container">
+        <div class="logo">
+          <h1>just <span>blog</span></h1>
+          <p>login account</p>
+        </div>
+        <form action="#">
+          <div>
+            <label for="email_phone">Email or Phone number</label>
+          </div>
+          <div>
+            <input
+              type="text"
+              name="email_phone"
+              id="email_phone"
+              placeholder="Email or Phone number"
+              required
+            />
+          </div>
+          <div class="pwd">
+            <label for="pwd">Password</label>
+          </div>
+          <div>
+            <input
+              type="password"
+              name="pwd"
+              id="pwd"
+              placeholder="Password here"
+            />
+          </div>
+          <div class="checked">
+            <div>
+              <input type="checkbox" />
+              <span>Stay logged in</span>
+            </div>
+            <span><a href="#">Forgot password?</a></span>
+          </div>
+          <button class="button">Login</button>
+          <p>
+            Don't have an account? SignUp as
+            <span><a href="./pages/signup_user.html">User</a></span> or
+            <span><a href="./pages/signup_admin.html">Admin</a></span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG_sign_up_page</title>
+    <link rel="stylesheet" href="../styles/signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Open+Sans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,700&family=Open+Sans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="house">
+      <div class="container">
+        <div class="logo">
+          <h1>just <span>blog</span></h1>
+          <p>SignUp to have an account</p>
+        </div>
+        <form action="#">
+          <div>
+            <label for="name">Name</label>
+          </div>
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email_phone">Email or Phone number</label>
+          </div>
+          <div>
+            <input
+              type="text"
+              name="email_phone"
+              id="email_phone"
+              placeholder="Email or Phone number"
+              required
+            />
+          </div>
+          <div>
+            <label for="User_list">User</label>
+          </div>
+          <div>
+            <select name="User_list" id="User_list">
+              <option value="" selected="true" disabled="disabled">
+                Pick an option
+              </option>
+              <option value="bloggers">Bloggers</option>
+              <option value="content_creators">Content creator</option>
+              <option value="reader">Reader</option>
+              <option value="community_member">Community Member</option>
+              <option value="small_buisness_owner">Small Business owner</option>
+              <option value="educator">Educator</option>
+              <option value="student">Student</option>
+              <option value="hobbyist">Hobbyist</option>
+              <option value="journalist">Journalist</option>
+              <option value="writer">Writer</option>
+              <option value="influencer">Influencer</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="pwd">
+            <label for="pwd">Password</label>
+          </div>
+          <div>
+            <input
+              type="password"
+              name="pwd"
+              id="pwd"
+              placeholder="Password here"
+            />
+          </div>
+          <div class="pwd">
+            <label for="pwd">Confirm Password</label>
+          </div>
+          <div>
+            <input
+              type="password"
+              name="pwd"
+              id="pwd"
+              placeholder="Password here"
+            />
+          </div>
+          <button class="button">SignUp</button>
+          <p>
+            Already have an account?
+            <span><a href="../index.html">Login</a></span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
