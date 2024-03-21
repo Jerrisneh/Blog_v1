@@ -53,6 +53,9 @@ nav{
     align-items: center;
     gap: 20px;
 }
+.links a{
+    text-decoration: none;
+}
 .share-link{
     background-color: rgba(195, 178, 146, 1);
     color: rgba(254, 252, 248, 1);
@@ -162,9 +165,93 @@ margin: 30px 0;
 }
 .second_hr{
 border: 1px solid rgba(87, 0, 7, 1);
-width: 30%;
+width: 43%;
 }
 .profile_circle{
     display: flex;
     gap: 20px;
+    margin: 10px 0;
+}
+.first_p{
+    color: rgba(87, 0, 7, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0 10px;
+}
+.span_1{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.span_2{
+    font-size: 13px;
+}
+.second_p{
+    color: rgba(87, 0, 7, 1);
+    font-size: 13px;
+}
+.third_p{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 0;
+}
+.tp_1{
+    color: rgba(254, 252, 248, 1);
+    background: rgba(112, 0, 9, 1);
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment .button{
+    padding: 15px 40px;
+    color: rgba(85, 78, 64, 1);
+    border-radius: 10px;
+    border: 0.5px solid rgba(85, 78, 64, 1);
+    background: white;
+}
+form input{
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    padding: 20px 1060px 20px 20px;
+    margin: 0 0 20px;
+}
+form input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+textarea{
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+textarea::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    padding: 20px;
+}
+.a_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.a_flex input{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.a_flex .button{
+    border:0.5px solid rgba(85, 78, 64, 1);
+    border-radius: 10px;
+    padding: 20px 40px;
+    background: rgba(112, 0, 9, 1);
+    color: rgba(252, 244, 239, 1);
+    font-weight: 700;
+}
+.anonymous span{
+    text-transform: capitalize;
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
 }

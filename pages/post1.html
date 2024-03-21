@@ -89,22 +89,30 @@
           </p>
           <p>by Ekene Okafor at 08/03/2024 4:11 PM 3 comments</p>
           <div class="links">
-            <div class="share-link">
-              <img src="../assets/share.svg" alt="share-link" />
-              <p>share</p>
-            </div>
-            <div class="x-link">
-              <img src="../assets/X.svg" alt="X-link" />
-              <p>share</p>
-            </div>
-            <div class="fb-link">
-              <img src="../assets/fb.svg" alt="fb-link" />
-              <p>share</p>
-            </div>
-            <div class="whatsapp-link">
-              <img src="../assets/whatsapp.svg" alt="whatsapp-link" />
-              <p>share</p>
-            </div>
+            <a href="#">
+              <div class="share-link">
+                <img src="../assets/share.svg" alt="share-link" />
+                <p>share</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="x-link">
+                <img src="../assets/X.svg" alt="X-link" />
+                <p>share</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="fb-link">
+                <img src="../assets/fb.svg" alt="fb-link" />
+                <p>share</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="whatsapp-link">
+                <img src="../assets/whatsapp.svg" alt="whatsapp-link" />
+                <p>share</p>
+              </div>
+            </a>
           </div>
           <hr class="first_hr" />
           <h3>comments(3)</h3>
@@ -123,21 +131,107 @@
             />
             <div class="flex">
               <div class="first_p">
-                <p>Anonymous M</p>
-                <p>about 19 hrs ago</p>
+                <span class="span_1">Anonymous M</span>
+                <span class="span_2">about 19 hrs ago</span>
               </div>
               <div class="second_p">
-                <p>What an inspiring story</p>
+                <span>What an inspiring story</span>
               </div>
               <div class="third_p">
-                <p>Like this! 3</p>
-                <p>Dislike this! 0</p>
-                <p>Reply</p>
+                <span class="tp_1">Like this! 3</span>
+                <span class="tp_1">Dislike this! 0</span>
+                <span class="tp_1">Reply</span>
               </div>
             </div>
           </div>
+
+          <hr class="second_hr" />
+          <div class="profile_circle">
+            <img
+              src="../assets/iconoir_profile-circle.svg"
+              alt="iconoir_profile-circle"
+            />
+            <div class="flex">
+              <div class="first_p">
+                <span class="span_1">Anonymous a</span>
+                <span class="span_2">about 22 hrs ago</span>
+              </div>
+              <div class="second_p">
+                <span>Am all in tears</span>
+              </div>
+              <div class="third_p">
+                <span class="tp_1">Like this! 3</span>
+                <span class="tp_1">Dislike this! 0</span>
+                <span class="tp_1">Reply</span>
+              </div>
+            </div>
+          </div>
+
+          <hr class="second_hr" />
+          <div class="profile_circle">
+            <img
+              src="../assets/iconoir_profile-circle.svg"
+              alt="iconoir_profile-circle"
+            />
+            <div class="flex">
+              <div class="first_p">
+                <span class="span_1">Anonymous b</span>
+                <span class="span_2">about 3 hrs ago</span>
+              </div>
+              <div class="second_p">
+                <span>What an inspiring story</span>
+              </div>
+              <div class="third_p">
+                <span class="tp_1">Like this! 3</span>
+                <span class="tp_1">Dislike this! 0</span>
+                <span class="tp_1">Reply</span>
+              </div>
+            </div>
+          </div>
+          <hr class="second_hr" />
+          <div class="comment">
+            <h3>Add your comment</h3>
+            <button class="button" type="submit">Sign in</button>
+          </div>
+          <form action="#">
+            <div class="fname">
+              <input
+                name="fname"
+                id="fname"
+                type="text"
+                placeholder="Full name"
+              />
+            </div>
+            <div class="email">
+              <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="textarea">
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="168"
+                rows="14"
+                placeholder="Enter your comment"
+              ></textarea>
+            </div>
+            <div class="a_flex">
+              <div class="anonymous">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                <span>Anonymous</span>
+              </div>
+              <button class="button" type="submit">Submit comment</button>
+            </div>
+          </form>
+          <hr class="first_hr" />
         </div>
       </main>
+      <footer></footer>
     </div>
   </body>
 </html>
