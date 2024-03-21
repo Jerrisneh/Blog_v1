@@ -258,6 +258,7 @@ textarea::placeholder{
 footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
     gap: 100px;
     padding: 40px 60px;
     background: rgba(112, 0, 9, 1);
@@ -267,6 +268,7 @@ footer{
 }
 .update h4{
     padding: 0 0 20px;
+    font-size: 24px;
 }
 .update p{
     margin: 10px 0;
@@ -286,11 +288,34 @@ footer{
     border: none;
     color:rgba(252, 244, 239, 1);
     padding: 10px 30px ;
+    margin-top: 10px;
+    font-family: "Lora";
 }
 .navigate{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+.navigate h5{
+    font-size: 16px;
 }
 .navigate ul{
-list-style: none;
+    list-style: none;
+}
+.navigate li{
+    margin: 20px 0;
+    white-space: nowrap;
+}
+.navi h5{
+    margin: 0 0 20px;
+}
+.follow h5{
+margin-bottom: 20px;
+font-size: 16px;
+}
+.img1{
+    padding: 0 10px 0 0;
+}
+.img2{
+    padding: 0 10px 0 0;
 }
