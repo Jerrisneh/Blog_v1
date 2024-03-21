@@ -255,3 +255,42 @@ textarea::placeholder{
     font-weight: 700;
     font-size: 18px;
 }
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 40px 60px;
+    background: rgba(112, 0, 9, 1);
+    margin: 30px 0 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins";
+}
+.update h4{
+    padding: 0 0 20px;
+}
+.update p{
+    margin: 10px 0;
+}
+.update input{
+    padding: 10px 160px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+}
+.update input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.update .s_btn .button{
+    background: rgba(61, 90, 152, 1);
+    border-radius: 10px;
+    border: none;
+    color:rgba(252, 244, 239, 1);
+    padding: 10px 30px ;
+}
+.navigate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.navigate ul{
+list-style: none;
+}
