@@ -45,6 +45,9 @@ nav{
 .article{
     margin: 20px 50px;
 }
+.article_p{
+    margin: 20px 0;
+}
 .links{
     display: flex;
     align-items: center;
@@ -55,8 +58,8 @@ nav{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 8px 20px;
-    border-radius: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
@@ -73,8 +76,8 @@ nav{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 8px 20px;
-    border-radius: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
@@ -92,8 +95,8 @@ nav{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 8px 20px;
-    border-radius: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
@@ -110,8 +113,8 @@ nav{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 8px 20px;
-    border-radius: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
@@ -135,4 +138,33 @@ nav{
     width: 10px;
     border-radius: 10px;
     background-color: rgba(244, 223, 182, 1);
+}
+.first_hr{
+    border: 2px solid rgba(222, 143, 95, 1);
+    margin: 10px 0;
+}
+.article h3{
+text-transform: capitalize;
+margin: 30px 0;
+}
+.disclaimer{
+    background: rgba(112, 0, 9, 1);
+    padding: 20px;
+    margin: 40px 0;
+}
+.disclaimer h4{
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.disclaimer p{
+    color: rgba(255, 255, 255, 1);
+}
+.second_hr{
+border: 1px solid rgba(87, 0, 7, 1);
+width: 30%;
+}
+.profile_circle{
+    display: flex;
+    gap: 20px;
 }
