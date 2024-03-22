@@ -43,11 +43,18 @@ nav{
     width: 100%;
 }
 .article{
-    margin: 20px 50px;
+    margin: 40px 100px;
+}
+.indent_p{
+    text-indent: 40px;
+}
+p{
+
 }
 .article_p{
-    margin: 20px 0;
+    margin: 0;
 }
+
 .links{
     display: flex;
     align-items: center;
@@ -136,12 +143,7 @@ nav{
     gap: 20px;
     margin: 20px 0;
 }
-.emptyd{
-    height: 161px;
-    width: 10px;
-    border-radius: 10px;
-    background-color: rgba(244, 223, 182, 1);
-}
+
 .first_hr{
     border: 2px solid rgba(222, 143, 95, 1);
     margin: 10px 0;
@@ -149,6 +151,9 @@ nav{
 .article h3{
 text-transform: capitalize;
 margin: 30px 0;
+}
+.text h4{
+    margin-top:20px ;
 }
 .disclaimer{
     background: rgba(112, 0, 9, 1);
@@ -165,7 +170,7 @@ margin: 30px 0;
 }
 .second_hr{
 border: 1px solid rgba(87, 0, 7, 1);
-width: 43%;
+width: 45%;
 }
 .profile_circle{
     display: flex;
@@ -217,7 +222,7 @@ width: 43%;
 form input{
     border-radius: 10px;
     border: 0.5px solid rgba(0, 0, 0, 1);
-    padding: 20px 1060px 20px 20px;
+    padding: 20px 960px 20px 20px;
     margin: 0 0 20px;
 }
 form input::placeholder{
