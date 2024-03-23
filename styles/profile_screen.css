@@ -30,3 +30,78 @@ nav{
     align-items: center;
     gap: 40px;
 }
+.img img{
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.ladyprofile{
+    width: 30%;
+}
+.ladyprofile img{
+    position: relative;
+    top: -120px;
+    left: 100px;
+    border: 10px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+}
+.edit{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.edit-hp{
+    padding: 20px;
+}
+.edit h3{
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+.edit p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+.edit-btn{
+    border: 1px solid rgba(112, 0, 9, 1);
+    color: rgba(112, 0, 9, 1);
+    background: rgba(255, 255, 255, 1);
+    padding: 15px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.n-flex{
+    display: flex;
+    /* justify-content: center; */
+    /* width: 50%; */
+    gap: 100px;
+    /* font-size: 20px; */
+    margin: 0 100px 100px;
+    font-family: "Work Sans";
+}
+.n-flex hr{
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 300px;
+}
+.name h4{
+    padding: 20px 0;
+    font-size: 24px;
+}
+.logout-btn{
+    display: flex;
+    justify-content: end;
+}
+.logout-btn button{
+    border: 1px solid rgba(112, 0, 9, 1);
+    color: rgba(255, 255, 255, 1);
+    background:rgba(112, 0, 9, 1);
+    padding: 15px 20px;
+    margin:0 100px 100px;
+    border-radius: 5px;
+    font-size: 18px;
+}
