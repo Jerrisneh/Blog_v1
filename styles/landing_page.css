@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lora";
+}
+.container{}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+
+}
+.nav-logo{
+    text-transform: capitalize;
+    color:rgba(222, 143, 95, 1);
+    font-weight: 500;
+    font-size: 32px;
+}
+.nav-logo span{
+    color: rgba(244, 223, 182, 1);
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+main{
+    display: flex;
+    gap: 40px;
+    margin: 30px 100px;
+}
+.sidebar{
+    width: 30%;
+}
+form{
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.search{
+    border: none;
+    border-radius: inherit;
+    font-size: 17px;
+    padding: 10px;
+}
+input[type="search"]::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
+.sidebar-btn{
+    background: url(../assets/search_icon.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.categories{
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+}
+.categories h3{
+    text-transform: capitalize;
+}
+.categories ul{
+    list-style: none;
+}
+.categories ul li{
+    padding: 20px 0;
+}
+.trending{
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px 10px;
+    border-radius: 10px;
+}
+.trending h3{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+}
+.trend_flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+.num span{
+    font-weight: 700;
+    font-size: 40px;
+}
+.hp h4{
+    text-wrap:nowrap;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 0 5px;
+}
+.hp p{
+    color: rgba(117, 123, 131, 1);
+}
+.landing_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;
+}
+.grid{
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+    /* height: 32%; */
+}
+.grid img{
+    width: 100%;
+}
+.write_{
+    margin: 10px;
+}
+.write_ .food{
+    color: rgba(117, 123, 131, 1);
+    text-transform: uppercase;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 12px;
+}
+.write_ h4{
+    color: rgba(0, 0, 0, 1);
+    padding: 5px 0;
+    text-wrap: nowrap;
+}
+.write_ .lastp{
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+}
+.landing_btn{
+    background: rgba(198, 0, 15, 1);
+    border: none;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px 15px;
+    margin: 10px 0 0;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 40px 60px;
+    background: rgba(112, 0, 9, 1);
+    margin: 30px 0 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins";
+}
+.update h4{
+    padding: 0 0 20px;
+    font-size: 24px;
+}
+.update p{
+    margin: 10px 0;
+}
+.update input{
+    padding: 10px 160px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+}
+.update input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.update .s_btn .button{
+    background: rgba(61, 90, 152, 1);
+    border-radius: 10px;
+    border: none;
+    color:rgba(252, 244, 239, 1);
+    padding: 10px 30px ;
+    margin-top: 10px;
+    font-family: "Lora";
+    cursor: pointer;
+}
+.navigate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+.navigate h5{
+    font-size: 16px;
+}
+.navigate ul{
+    list-style: none;
+}
+.navigate li{
+    margin: 20px 0;
+    white-space: nowrap;
+}
+.navi h5{
+    margin: 0 0 20px;
+}
+.follow h5{
+margin-bottom: 20px;
+font-size: 16px;
+}
+.img1{
+    padding: 0 10px 0 0;
+}
+.img2{
+    padding: 0 10px 0 0;
+}
