@@ -117,7 +117,6 @@ input[type="search"]::placeholder{
 }
 .grid{
     box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
-    /* height: 32%; */
 }
 .grid img{
     width: 100%;
@@ -150,9 +149,8 @@ input[type="search"]::placeholder{
     font-size: 12px;
     padding: 5px 15px;
     margin: 10px 0 0;
+    cursor: pointer;
 }
-
-
 footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
