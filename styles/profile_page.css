@@ -73,6 +73,7 @@ nav{
     margin: 20px;
     border-radius: 5px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .n-flex{
@@ -104,4 +105,5 @@ nav{
     margin:0 100px 100px;
     border-radius: 5px;
     font-size: 18px;
+    cursor: pointer;
 }

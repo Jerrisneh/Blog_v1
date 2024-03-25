@@ -58,7 +58,7 @@ p{
 .links{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .links a{
     text-decoration: none;
