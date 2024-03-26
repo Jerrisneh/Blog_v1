@@ -33,18 +33,62 @@ nav a{
     align-items: center;
     gap: 40px;
 }
-.img{
+.img img{
     /* position: absolute; */
+    width: 100%;
     margin: 10px 0 20px;
     background-color: rgba(0, 0, 0, 0.2);
 }
+.house{
+    margin: 10px 100px;
+}
 .content{
     position: absolute;
-    right: 50%;
-    left: 50%;
-    top: 250px;
+    right: 55%;
+    left: 45%;
+    top: 220px;
     text-wrap: nowrap;
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    font-size: 28px;
 
+}
+.profile_img img{
+    width: 100px;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 1);
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.profile_details{
+    font-family: "Work Sans";
+}
+.post_btns{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+}
+.first_btn {
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(112, 0, 9, 1);
+    background: rgba(255, 255, 255, 1);
+}
+.second_btn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(112, 0, 9, 1);
+    background: rgba(255, 255, 255, 1);
+}
+.third_btn{
+    padding: 10px 30px;
+    border: 1px solid rgba(112, 0, 9, 1);
+    border-radius: 20px;
+    background: rgba(112, 0, 9, 1);
+    color: rgba(255, 255, 255, 1);
 }

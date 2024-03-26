@@ -110,5 +110,8 @@ form input::placeholder{
     top: 55px;
     left: -30px;
     color: rgba(222, 143, 95, 1);
-    
+}
+.changepwd a{
+    text-decoration: none;
+    color: rgba(222, 143, 95, 1);
 }
