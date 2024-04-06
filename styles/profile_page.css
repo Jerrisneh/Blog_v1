@@ -51,7 +51,7 @@ nav{
 .edit{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    gap: 100px;
 }
 .edit-hp{
     padding: 20px;

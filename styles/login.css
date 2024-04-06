@@ -59,7 +59,7 @@ form input{
 }
 .checked{
     display: flex;
-    gap: 170px;
+    gap: 155px;
     align-items: center;
     color: #F4DFB6;
     margin: 10px;

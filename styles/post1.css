@@ -68,14 +68,14 @@ p{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
     align-items: center;
     justify-content: space-around;
-    gap: 15px;
+    gap: 10px;
     margin: 20px 0;
 }
 .share-link img{
@@ -86,14 +86,14 @@ p{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
     align-items: center;
     justify-content: space-around;
-    gap: 15px;
+    gap: 10px;
     margin: 20px 0;
 }
 .x-link img{
@@ -105,32 +105,32 @@ p{
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
     align-items: center;
     justify-content: space-around;
-    gap: 15px;
+    gap: 10px;
     margin: 20px 0;
 }
 .fb-link img{
-    width: 20px;
+    width: 14px;
 }
 .whatsapp-link{
     background-color: rgba(55, 178, 52, 1);
     color: rgba(254, 252, 248, 1);
     font-weight: 400;
     width: 100px;
-    padding: 5px 20px;
+    padding: 5px 10px ;
     border-radius: 5px;
     display: flex;
     text-transform: capitalize;
     font-size: 20px;
     align-items: center;
     justify-content: space-around;
-    gap: 15px;
+    gap: 10px;
     margin: 20px 0;
 }
 .whatsapp-link img{
