@@ -1,0 +1,121 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+body {
+    font-family: "Work Sans", sans-serif;
+  }
+
+  main {
+    /* background-image: url("./public/background.png"); */
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width:100%;
+  }
+
+  .form-div {
+    background-color: #000000;
+    padding: 2px;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-top: 5%;
+    margin: auto;
+  }
+
+  .form-div .first_p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.form-div .second_p{
+    text-align: center;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+    margin: 20px;
+  }
+
+  .form-div form {
+    /* text-align: left; */
+    width: 90%;
+    margin: auto;
+  }
+  .form-div .flex{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #ffffff;
+    margin: 25px 0;
+    padding: 5px 10px ;
+    border-radius: 10px;
+  }
+  .flex img{
+    width: 35px;
+  }
+  .flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px 0; */
+    margin: 20px 0;
+  }
+  .flex input[type="text"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    width: 26%;
+    border-radius: 10px;
+    padding: 0px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px;
+  }
+  .flex1 input[type="text"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    width: 5%;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    /* margin-right: 10px; */
+  }
+
+  .form-div button {
+    background-color: #2c8e2a;
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: none;
+    width: 80%;
+    margin: 10px auto;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  .form-div .grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 10px;
+    font-size: 1.5rem;
+    gap: 30px;
+  }
+
+  .form-div a p{
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .form-div a{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    color: #F4DFB6;
+  }

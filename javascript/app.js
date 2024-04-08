@@ -1,6 +1,6 @@
 const sectionBox= document.querySelector(".landing_grid")
 
-const myEventsApi = `https://fakerapi.it/api/v1/books?_quantity=10`;
+const myEventsApi = `https://fakerapi.it/api/v1/books?_quantity=8`;
 const eventHeaders = {
   method: 'get',
   headers: {
@@ -26,7 +26,7 @@ fetch(myEventsApi, eventHeaders)
       blogContent.classList.add("blog-contents")
       blogContent.style.width="100%"
       const img = document.createElement("img")
-      img.src = "../javascript/faith4.png"
+      img.src = "../assets/remi.svg"
       img.alt = "faith's image"
       img.classList.add("blog-desk-img")
       blogContent.appendChild(img)
